@@ -1,7 +1,7 @@
 class Api::V1::CharactersController < ApplicationController
   def index
     characters = Character.all
-    render json: characters
+    render json: CharacterSerializer.new(characters)
   end
 
   def create
@@ -15,7 +15,7 @@ class Api::V1::CharactersController < ApplicationController
 
   def show
     character = Character.find_by(id: params[:id])
-    render json: character
+    render json: CharacterSerializer.new(character)
   end
 
   private
