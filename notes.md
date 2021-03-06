@@ -1,2 +1,2 @@
 [x] seed data
-[ ] images_url attribute
+[x] images_url attribute
