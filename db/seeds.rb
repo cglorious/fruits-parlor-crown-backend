@@ -95,3 +95,12 @@ venus = Character.create(
   bio: "Minako is a fourteen-year-old perky dreamer. Minako first appears as the main protagonist of Codename: Sailor V. Minako transforms into Sailor Venus, the Guardian of Love and Beauty, and leads Sailor Moon's four inner Guardians, while acting as Sailor Moon's bodyguard and decoy because of their near-identical looks.",
   image_url: "https://i.pinimg.com/originals/c6/b0/e4/c6b0e4c5a77bf36654f50a1b3399b6cc.jpg",
   category_id: guardian.id)
+
+  # darian = Character.create(
+  #   name: "Mamoru Chiba",
+  #   title: "Tuxedo Mask",
+  #   power: "Psychic Powers, Psychometry, Healing",
+  #   affiliation: "Guardian over planet Earth",
+  #   bio: "He disguises himself in order to support the series' central heroines, the Sailor Guardians. Wearing a mask to conceal his identity, he interferes with enemy operations, offers the Sailor Guardians advice, and sometimes physically aids them in battle.",
+  #   image_url: "https://cdn.costumewall.com/wp-content/uploads/2019/09/sailor-moon.jpg",
+  #   category_id: guardian.id)

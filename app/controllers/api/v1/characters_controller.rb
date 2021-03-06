@@ -27,6 +27,7 @@ class Api::V1::CharactersController < ApplicationController
     :power,
     :affiliation,
     :bio,
+    :image_url,
     :category_id)
 end
 end
