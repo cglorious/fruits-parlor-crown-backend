@@ -44,7 +44,7 @@ kunzite = Character.create(
   power: "Energy Blasts, Energy Blades, Energy Dome",
   affiliation: "Dark Kingdom",
   bio: "Kunzite aims to avenge Zoisite and find the Legendary Silver Crystal, no matter the cost.",
-  image_url: "https://lh3.googleusercontent.com/proxy/85flZ6kwW0grlGcQol4s4CUai5VUaNWOB9NHp14NyLz3CQu4CZk6eYu24FVJ0Qb05onCGLtW9QIeVSv9aC8IizgVdS4wTNktd1tC1GCqbQRzAFaaCr01ODHUlkmOHP6CdhPHG5Q",
+  image_url: "https://static.wikia.nocookie.net/sailormoon/images/a/a6/Kun-as01.jpg/revision/latest?cb=20151019172246&path-prefix=pt-br",
   category_id: villian.id)
 beryl = Character.create(
   name: "Queen Beryl",
