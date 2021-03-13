@@ -12,7 +12,7 @@ Character.delete_all
 IMAGE_URL = "https://ih1.redbubble.net/image.361175264.4945/st,small,845x845-pad,1000x1000,f8f8f8.u5.jpg"
 
 guardian = Category.create(name: "Guardian")
-villian = Category.create(name: "Villian")
+villain = Category.create(name: "Villain")
 
 jadeite = Character.create(
   name: "Jadeite",
@@ -21,7 +21,7 @@ jadeite = Character.create(
   affiliation: "Dark Kingdom",
   bio: "Jadeite is tasked to gather energy to help strengthen and power the Dark Kingdom.",
   image_url: "https://static.wikia.nocookie.net/sailormoonenglishanime/images/e/e3/Jedite2.jpg/revision/latest/scale-to-width-down/340?cb=20140816081528",
-  category_id: villian.id)
+  category_id: villain.id)
 zoisite = Character.create(
   name: "Zoisite",
   title: "Shitennou",
@@ -29,7 +29,7 @@ zoisite = Character.create(
   affiliation: "Dark Kingdom",
   bio: "Zoisite is tasked to finding the seven Rainbow Crystals, which would form the Legendary Silver Crystal.",
   image_url: "https://static.wikia.nocookie.net/loveinterest/images/6/6f/Zoisite_5485.jpg/revision/latest?cb=20121230040556",
-  category_id: villian.id)
+  category_id: villain.id)
 nephrite = Character.create(
   name: "Nephrite",
   title: "Shitennou",
@@ -37,7 +37,7 @@ nephrite = Character.create(
   affiliation: "Dark Kingdom",
   bio: "Nephrite was told to find the Legendary Silver Crystal.",
   image_url: "https://static.wikia.nocookie.net/sailormoonenglishanime/images/5/5e/Neflite3.jpg/revision/latest/top-crop/width/220/height/220?cb=20140820130258",
-  category_id: villian.id)
+  category_id: villain.id)
 kunzite = Character.create(
   name: "Kunzite",
   title: "Shitennou",
@@ -45,7 +45,7 @@ kunzite = Character.create(
   affiliation: "Dark Kingdom",
   bio: "Kunzite aims to avenge Zoisite and find the Legendary Silver Crystal, no matter the cost.",
   image_url: "https://static.wikia.nocookie.net/sailormoon/images/a/a6/Kun-as01.jpg/revision/latest?cb=20151019172246&path-prefix=pt-br",
-  category_id: villian.id)
+  category_id: villain.id)
 beryl = Character.create(
   name: "Queen Beryl",
   title: "Commander and Queen of the Negaverse",
@@ -53,7 +53,7 @@ beryl = Character.create(
   affiliation: "Dark Kingdom" ,
   bio: "Queen Beryl is the second in command in the Dark Kingdom, driven by her affection for Endymion.",
   image_url: "https://nefariousreviews.files.wordpress.com/2020/11/sailor-moon-queen-beryl.jpg",
-  category_id: villian.id)
+  category_id: villain.id)
 
 moon = Character.create(
   name: "Usagi Tsukino",

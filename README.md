@@ -1,24 +1,5 @@
-# README
+# Fruits Parlor Crown
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Fruits Parlor Crown is a Single Page Application (SPA) built while attending Flatiron School using JavaScript that communicates with the backend Ruby on Rails API. It is a Sailor Moon fandom database for characters in the Sailor Moon anime series. Users can interact by viewing the Guardian page or Villain page.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Please view the frontend of [Fruits Parlor Crown](https://github.com/cglorious/fruits-parlor-crown-frontend) for installation guide.
